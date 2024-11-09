@@ -1,10 +1,12 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="antialiased">
+      <title>Restaurant Manager</title>
+      <link rel="icon" href="/images/logo.png" />
+      <body className="antialiased p-4">
         <Main />
         <NextScript />
       </body>
