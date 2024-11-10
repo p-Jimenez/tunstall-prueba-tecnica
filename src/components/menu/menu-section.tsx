@@ -23,7 +23,6 @@ export default function MenuSection() {
   const { data, loading, error, refetch } = useQuery(GET_MENU);
 
   const handleChange = () => {
-    console.log("change");
     refetch();
   };
 
